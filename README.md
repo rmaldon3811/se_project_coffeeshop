@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+I think it would be great for the project to implement some more animation and music as well on the main page, maybe some "coffee shop" type music when you first enter the website, so it feels like you are at a coffee shop.
