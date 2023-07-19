@@ -187,6 +187,8 @@
 .form {
   display: flex;
   flex-direction: column;
+  max-width: 385px;
+  width: 100%;
 }
 
 .reservation__form {
@@ -201,8 +203,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  max-width: 385px;
-  padding: 32px;
   border: none;
 }
 .form__label {
@@ -223,6 +223,9 @@
   line-height: 30px;
   color: #838383;
   width: 100%;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .form__input[type="checkbox"] {
@@ -238,6 +241,7 @@
   line-height: 20px;
   border-radius: 4px;
   width: 100%;
+  height: 60px;
 }
 
 .form__button:hover {
