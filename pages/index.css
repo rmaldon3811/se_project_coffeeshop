@@ -163,10 +163,85 @@
   line-height: 30px;
 }
 
-.booking {
+.reservation {
+  background-color: #d9e7ff;
+  height: 100vh;
+  width: 100%;
+  background-image: url(..//images/background_reservation.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.reservation__title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
 }
 
-.menu {
+.reservation__form {
+  margin-top: 100px;
+  margin-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 385px;
+  padding: 32px;
+  border: none;
+}
+.form__label {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.form__input {
+  border-radius: 4px;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__input[type="checkbox"] {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: #2f80ed;
+}
+.form__button {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+.form__button[type="submit"] {
+  background-color: #2f80ed;
 }
 
 .footer {
