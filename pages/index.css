@@ -222,6 +222,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  width: 100%;
 }
 
 .form__input[type="checkbox"] {
@@ -236,6 +237,7 @@
   font-size: 16px;
   line-height: 20px;
   border-radius: 4px;
+  width: 100%;
 }
 
 .form__button:hover {
