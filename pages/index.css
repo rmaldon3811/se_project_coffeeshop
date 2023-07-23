@@ -66,6 +66,7 @@
 }
 
 .nav__link:hover {
+  color: #2f80ed;
 }
 
 .header__title {
@@ -112,12 +113,6 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-}
-
-.header__link {
-}
-
-.header__link:hover {
 }
 
 .header__paragraph {
@@ -402,8 +397,13 @@
   padding: 60px 100px 60px 80px;
 }
 
-.footer__content {
+.footer__columns {
   display: flex;
+  justify-content: space-between;
+}
+
+.footer__content {
+  margin-left: 80px;
 }
 .footer__logo {
   width: 105px;
@@ -417,6 +417,7 @@
   line-height: 20px;
   color: #ffffff;
   margin-right: 100px;
+  gap: 20px;
 }
 .footer__list {
   list-style-type: none;
@@ -425,12 +426,11 @@
 }
 
 .footer__list-item {
-  margin-right: 100px;
-  margin-top: 60px;
   font-family: "Inter";
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .footer__social-icon {
