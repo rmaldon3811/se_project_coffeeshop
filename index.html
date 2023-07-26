@@ -13,33 +13,32 @@
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="favicon.ico" />
+
+    <link rel="icon" type="image/x-icon" />
   </head>
   <body>
     <div class="page">
@@ -178,13 +177,18 @@
             <fieldset class="form__fieldset">
               <input
                 type="checkbox"
-                class="form__input form__input_type_checkbox"
+                class="form__checkbox"
                 name="terms-of-use"
                 id="terms-of-use"
               />
               <label for="terms-of-use" class="form__label"
                 >I agree with the terms of use</label
               >
+              <fieldset class="form__fieldset">
+                <label class="form__label form__label_type_checkbox">
+                  <input class="form__checkbox" id="checkbox" />
+                </label>
+              </fieldset>
             </fieldset>
           </form>
         </section>
@@ -197,7 +201,7 @@
           <div class="menu__cards">
             <div class="card">
               <h3 class="card__title">Filter</h3>
-              <ul>
+              <ul class="card">
                 <li class="card__list-item">
                   Regular (12 oz)
                   <span class="card__list-divider"> </span>$1
@@ -222,7 +226,7 @@
             </div>
             <div class="card">
               <h3 class="card__title">Espresso</h3>
-              <ul>
+              <ul class="card">
                 <li class="card__list-item">
                   Macchiato
                   <span class="card__list-divider"> </span>$2.25
@@ -244,7 +248,7 @@
 
             <div class="card">
               <h3 class="card__title">Baked Goods</h3>
-              <ul>
+              <ul class="card">
                 <li class="card__list-item">
                   Almond Croissant
                   <span class="card__list-divider"> </span>$2

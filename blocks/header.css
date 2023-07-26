@@ -1,12 +1,13 @@
 .header {
   display: flex;
   flex-direction: column;
+  height: 100vh;
   min-height: 720px;
   max-height: 800px;
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
-  z-index: -2;
+  z-index: 1;
   background-image: url(../images/background_header.svg);
   background-size: cover;
   background-position: center;
@@ -54,7 +55,7 @@
   margin-top: auto;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   box-sizing: border-box;
 }
