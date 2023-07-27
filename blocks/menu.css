@@ -16,14 +16,14 @@
   margin-bottom: 0;
   display: flex;
   justify-content: center;
-  font-family: "Inter" Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
 }
 
 .menu__subtitle {
-  font-family: "Noto Serif", serif, "Times New Roman";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 780px;

@@ -17,7 +17,7 @@
 
 .card__list-item {
   list-style-type: none;
-  font-family: "Noto Serif", serif, "Times New Roman";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 20px;
