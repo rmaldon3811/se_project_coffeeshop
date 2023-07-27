@@ -7,11 +7,10 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  column-gap: 120px;
   z-index: 1;
 }
 .about__title {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -23,19 +22,21 @@
 }
 
 .about__content {
-  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-family: "Noto Serif" serif, "Times New Roman";
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
   color: #ffffff;
   z-index: 1;
   margin-top: 119px;
-  margin-bottom: 80px;
-  margin-left: 80px;
-  margin-right: auto;
+  margin-bottom: 173px;
+  margin-right: 80px;
 }
 .about__paragraph {
   margin-top: 0;
+  margin-bottom: 20px;
+}
+.about__paragraph:last-of-type {
   margin-bottom: 0;
 }
 .about__circle {
