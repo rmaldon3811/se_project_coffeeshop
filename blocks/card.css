@@ -10,6 +10,10 @@
   font-size: 20px;
   line-height: 30px;
 }
+.card__list {
+  padding-left: 0;
+  margin-bottom: 0;
+}
 
 .card__list-item {
   list-style-type: none;
@@ -19,9 +23,10 @@
   line-height: 20px;
   display: flex;
   justify-content: flex-end;
+  margin-top: 16px;
 }
 .card__list-item:first-of-type {
-  margin-top: 16px;
+  margin-top: 0;
 }
 
 .card__list-divider {

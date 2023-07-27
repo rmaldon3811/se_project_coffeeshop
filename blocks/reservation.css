@@ -10,17 +10,18 @@
   justify-content: center;
 }
 .reservation__title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   display: flex;
   justify-content: center;
   margin-top: 100px;
+  margin-bottom: 0;
 }
 
 .reservation__form {
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 120px;
   margin-left: auto;
   margin-right: auto;
